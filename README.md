@@ -1,129 +1,79 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/hero-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-light.svg" width="100%" alt="Hi, I'm Zeba Ali — a backend engineer crafting robust, observable, and scalable distributed systems.">
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Hi, I'm Zeba Ali, Backend Engineer. A central service connects to API, events, PostgreSQL, Redis, and observability.">
+</picture>
 
-<p align="center">
-  <strong>BACKEND ENGINEERING</strong>&nbsp; · &nbsp;Distributed systems&nbsp; · &nbsp;<strong>JAVA ECOSYSTEM</strong>&nbsp; · &nbsp;Continuous builder
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/identity-light.svg">
+  <img src="assets/identity-light.svg" width="100%" alt="Engineering identity: Backend Engineering, Distributed Systems, Data Systems, and Java Backend Engineering in development.">
+</picture>
 
-## Engineering, with intent
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/philosophy-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/philosophy-light.svg">
+  <img src="assets/philosophy-light.svg" width="100%" alt="I build backend systems where correctness, failure handling, performance, and observability matter. I care about systems that remain understandable as they grow and useful when something goes wrong.">
+</picture>
 
-I enjoy building backend systems where correctness, failure handling, performance, and observability matter. My work spans Java backend engineering, databases, event-driven systems, and developer tooling. I care about systems that remain understandable as they grow—and useful when something goes wrong.
+## Technology landscape
 
-## Toolkit
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Technology dashboard grouped into Backend, Data and Messaging, Infrastructure, and Engineering tools.">
+</picture>
 
-> **LANGUAGES & BACKEND**
-> &nbsp; `Java` &nbsp; `Spring Boot` &nbsp; `REST APIs`
+## Backend architecture
 
-> **DATA & MESSAGING**
-> &nbsp; `Kafka` &nbsp; `PostgreSQL` &nbsp; `Oracle Database` &nbsp; `Redis`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/backend-architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/backend-architecture-light.svg">
+  <img src="assets/backend-architecture-light.svg" width="100%" alt="Conceptual backend architecture flowing from client through an API gateway and service layer into events, data, cache, observability, and a Docker and Kubernetes runtime.">
+</picture>
 
-> **INFRASTRUCTURE**
-> &nbsp; `Docker` &nbsp; `Kubernetes`
-
-> **ENGINEERING TOOLS**
-> &nbsp; `Git` &nbsp; `Maven` &nbsp; `Grafana` &nbsp; `Prometheus`
+<sub>Conceptual architecture—not one literal production deployment.</sub>
 
 ## Featured systems
 
-<table width="100%">
-  <tr><td>
-    <sub>01 · FLAGSHIP · DISTRIBUTED SYSTEMS</sub>
-    <h3><a href="https://github.com/Zebaali-hub/orderflow">OrderFlow ↗</a></h3>
-    <p>An event-driven food-delivery backend that carries an order from placement through payment, assignment, and live tracking across Spring Boot services.</p>
-    <p><code>Java</code> <code>Spring Boot</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Redis</code></p>
-    <p><strong><a href="https://github.com/Zebaali-hub/orderflow">Explore repository →</a></strong></p>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr><td>
-    <sub>02 · DATABASE PERFORMANCE</sub>
-    <h3><a href="https://github.com/Zebaali-hub/db-stress-framework">DB Stress Framework ↗</a></h3>
-    <p>A configurable JDBC workload runner for observing concurrency, throughput, latency percentiles, error rates, and database behavior under stress.</p>
-    <p><code>Java</code> <code>Spring Boot</code> <code>JDBC</code> <code>WebSocket</code> <code>PostgreSQL</code></p>
-    <p><strong><a href="https://github.com/Zebaali-hub/db-stress-framework">Explore repository →</a></strong></p>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr><td>
-    <sub>03 · PRODUCTION DIAGNOSTICS</sub>
-    <h3><a href="https://github.com/Zebaali-hub/log-intelligence-tool">Log Intelligence Tool ↗</a></h3>
-    <p>A backend service that analyses Oracle, Java, PostgreSQL, AWR, and SQL Monitor logs for patterns, root-cause signals, and remediation workflows.</p>
-    <p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Flyway</code> <code>Docker</code></p>
-    <p><strong><a href="https://github.com/Zebaali-hub/log-intelligence-tool">Explore repository →</a></strong></p>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr><td>
-    <sub>04 · ENGINEERING PRODUCTIVITY</sub>
-    <h3><a href="https://github.com/Zebaali-hub/jobradar">Job Radar ↗</a></h3>
-    <p>A local-first job discovery and application-tracking system with evidence-based matching and explicit boundaries around automation.</p>
-    <p><code>Java 21</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Next.js</code> <code>Docker</code></p>
-    <p><strong><a href="https://github.com/Zebaali-hub/jobradar">Explore repository →</a></strong></p>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr><td>
-    <sub>05 · INTERVIEW LEARNING</sub>
-    <h3><a href="https://github.com/Zebaali-hub/selfdrill">Self Drill ↗</a></h3>
-    <p>A resume-driven interview practice engine that generates targeted questions through deterministic parsing and rule-based techniques.</p>
-    <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>pdf.js</code> <code>localStorage</code></p>
-    <p><strong><a href="https://github.com/Zebaali-hub/selfdrill">Explore repository →</a></strong></p>
-  </td></tr>
-</table>
-
-## A backend system, in one view
-
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/system-flow-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/system-flow-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/system-flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/system-flow-light.svg">
-  <img src="assets/system-flow-light.svg" width="100%" alt="Conceptual backend architecture: clients enter through an API gateway, fan out to services, connect to an event and data layer with Kafka, PostgreSQL, and Redis, and feed observability.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg">
+  <img src="assets/projects-light.svg" width="100%" alt="Featured system showcase: OrderFlow, DB Stress Framework, Log Intelligence Tool, Job Radar, and Self Drill.">
 </picture>
 
-<sub>A visual vocabulary for the backend and distributed-system concepts I work with—not one literal production architecture.</sub>
+### [01 / OrderFlow — explore flagship system →](https://github.com/Zebaali-hub/orderflow)
 
-## Currently building
+Event-driven food-delivery backend spanning order placement, payment, assignment, and live tracking across Spring Boot services. `Java` `Spring Boot` `Kafka` `PostgreSQL` `Redis`
 
-> **JAVA BACKEND ENGINEERING** &nbsp; `IN DEVELOPMENT`
->
-> A structured, community-oriented repository for backend engineering learning material, examples, patterns, and interview-focused explanations.
+**[02 / DB Stress Framework →](https://github.com/Zebaali-hub/db-stress-framework)** · **[03 / Log Intelligence Tool →](https://github.com/Zebaali-hub/log-intelligence-tool)**<br>
+**[04 / Job Radar →](https://github.com/Zebaali-hub/jobradar)** · **[05 / Self Drill →](https://github.com/Zebaali-hub/selfdrill)**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/journey-light.svg">
+  <img src="assets/journey-light.svg" width="100%" alt="Engineering journey from backend foundations through databases and distributed systems to building Java Backend Engineering in public, alongside a continuous learning loop.">
+</picture>
 
 ## Engineering activity
 
+> **Consistent progress compounds.** Public contributions are context—not a measure of engineering ability.
+
 <a href="https://github.com/Zebaali-hub">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zebaali-hub&amp;bg_color=0d1117&amp;color=8b949e&amp;line=7dd3c7&amp;point=e6edf3&amp;area=true&amp;area_color=134e4a&amp;hide_border=true&amp;hide_title=true&amp;radius=8&amp;days=30">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zebaali-hub&amp;bg_color=ffffff&amp;color=667085&amp;line=2a9d8f&amp;point=344054&amp;area=true&amp;area_color=d9f3ef&amp;hide_border=true&amp;hide_title=true&amp;radius=8&amp;days=30" width="100%" alt="Zeba Ali's public GitHub contribution activity over the last 30 days">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Zebaali-hub&amp;bg_color=151827&amp;color=aeb8c8&amp;line=7dd3c7&amp;point=f2f4f7&amp;area=true&amp;area_color=173e3b&amp;hide_border=true&amp;hide_title=true&amp;radius=14&amp;days=30">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zebaali-hub&amp;bg_color=fbfcfe&amp;color=667085&amp;line=2a9d8f&amp;point=344054&amp;area=true&amp;area_color=d9f3ef&amp;hide_border=true&amp;hide_title=true&amp;radius=14&amp;days=30" width="100%" alt="Zeba Ali's public GitHub contribution activity over the last 30 days">
   </picture>
 </a>
 
-<sub>Public contributions only. Activity is context—not a measure of engineering ability.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/closing-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/closing-light.svg">
+  <img src="assets/closing-light.svg" width="100%" alt="Code is how I express logic. Systems are how I solve problems. Impact is why I build.">
+</picture>
 
-```java
-while (learning) {
-    build();
-    breakThings();
-    observe();
-    improve();
-}
-```
+<p align="center">
+  <strong><a href="https://zebacodes.com">zebacodes.com</a></strong>&nbsp;&nbsp;·&nbsp;&nbsp;<strong><a href="https://github.com/Zebaali-hub">GitHub</a></strong>
+</p>
 
----
-
-### Code is how I express logic. Systems are how I solve problems. Impact is why I build.
-
-**[Portfolio — zebacodes.com](https://zebacodes.com)** &nbsp;·&nbsp; **[GitHub — Zebaali-hub](https://github.com/Zebaali-hub)**
-
-<!-- Add LinkedIn or a professional email only when verified and intended for public indexing. -->
+<!-- Add LinkedIn only when a verified public URL is supplied. -->
