@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Hi, I'm Zeba Ali, Backend Engineer. A central service connects to API, events, PostgreSQL, Redis, and observability.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-portfolio-light.svg">
+  <img src="assets/hero-portfolio-light.svg" width="100%" alt="Hi, I'm Zeba Ali, Backend Engineer. A central service connects to API, events, PostgreSQL, Redis, and observability.">
 </picture>
 
 <picture>
